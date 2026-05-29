@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Editor / OS cruft
+*.swp
+*~
+
+# Generated TLDR output (the skill writes these into a target repo, not here)
+*.tldr.html
+*.tldr.md

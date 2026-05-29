@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "speckit-tldr",
+  "description": "TLDR review aids for Spec-Driven Development (GitHub Spec Kit) artifacts.",
+  "owner": {
+    "name": "Qurore"
+  },
+  "plugins": [
+    {
+      "name": "speckit-tldr",
+      "source": "./plugins/speckit-tldr",
+      "description": "Generate review-oriented TLDR (HTML + Markdown) for Spec Kit spec.md / plan.md to speed up PR review.",
+      "category": "productivity",
+      "license": "MIT",
+      "keywords": ["spec-kit", "spec-driven-development", "sdd", "code-review", "pr-review", "tldr", "summary"]
+    }
+  ]
+}
