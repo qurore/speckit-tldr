@@ -2,12 +2,12 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin.json",
   "name": "speckit-tldr",
   "description": "Generate review-oriented TLDR (HTML + Markdown) for GitHub Spec Kit spec.md / plan.md, so PR reviewers see the map and the risky spots before reading the full document.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Qurore"
   },
-  "homepage": "https://github.com/qurore/spec-kit-tldr",
-  "repository": "https://github.com/qurore/spec-kit-tldr",
+  "homepage": "https://github.com/qurore/speckit-tldr",
+  "repository": "https://github.com/qurore/speckit-tldr",
   "license": "MIT",
   "keywords": ["spec-kit", "sdd", "code-review", "tldr"]
 }
