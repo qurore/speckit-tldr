@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin.json",
   "name": "speckit-tldr",
   "description": "Generate review-oriented TLDR (HTML + Markdown) for GitHub Spec Kit spec.md / plan.md, so PR reviewers see the map and the risky spots before reading the full document.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": {
     "name": "Qurore"
   },
