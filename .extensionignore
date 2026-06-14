@@ -1,0 +1,14 @@
+# This repository is BOTH a Claude Code plugin and a Spec Kit extension.
+# When the extension is installed (`specify extension add`), spec-kit copies the
+# whole tree into `.specify/extensions/tldr/`. Exclude everything that is not part
+# of the extension's runtime so the installed copy stays clean.
+
+# Claude Code plugin (not part of the Spec Kit extension)
+.claude-plugin/
+plugins/
+
+# Version control and dev-only files (matter for `--dev` installs from a clone;
+# GitHub release archives already omit .git/ and untracked files)
+.git/
+.gitignore
+show-and-tell.md
